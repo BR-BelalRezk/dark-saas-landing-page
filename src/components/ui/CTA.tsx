@@ -15,7 +15,7 @@ export default function CTA() {
   return (
     <section
       ref={ref}
-      className=" bg-black text-white py-[72px] sm:py-24 text-center"
+      className=" bg-black text-white py-[72px] sm:py-24 text-center overflow-x-clip"
     >
       <div className="container max-w-xl relative">
         <motion.figure style={{ translateY }}>
