@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 export default function Header() {
   return (
-    <header className="bg-black w-full">
+    <header className="bg-black w-full overflow-x-clip">
       <nav className="py-5 md:pt-10 container mx-auto px-5">
         <div className="flex  items-center justify-between w-full">
           <figure className="relative">
