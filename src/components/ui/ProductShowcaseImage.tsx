@@ -13,7 +13,10 @@ export default function ProductShowcaseImage() {
   const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
   const rotateX = useTransform(scrollYProgress, [0, 1], [15, 0]);
   return (
-    <motion.figure style={{ opacity, rotateX, transformPerspective: "800px" }}>
+    <motion.figure
+      className="flex items-center justify-center"
+      style={{ opacity, rotateX, transformPerspective: "800px" }}
+    >
       <Image
         ref={ref}
         src={appScreen}
