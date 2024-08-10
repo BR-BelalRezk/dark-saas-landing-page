@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <Menu>
       <MenuParent className="relative">
-        <MenuButton className="z-50 flex flex-col items-center justify-center gap-1 size-10 relative bg-zinc-800 rounded-full md:hidden">
+        <MenuButton className="z-50 flex flex-col items-center justify-center gap-1 size-10 relative bg-white rounded-full md:hidden">
           <HamburgerIcon />
         </MenuButton>
         <MenuList

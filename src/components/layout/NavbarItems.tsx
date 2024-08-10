@@ -7,7 +7,7 @@ export default function NavbarItems() {
       {navbar.map((item, index) => (
         <MenuListItem
           key={index}
-          className={"capitalize text-black sm:text-white text-opacity-50"}
+          className={"capitalize text-black md:text-white text-opacity-50"}
           variants={{
             open: {
               opacity: 1,
@@ -21,7 +21,7 @@ export default function NavbarItems() {
         </MenuListItem>
       ))}
       <MenuListItem
-        className="capitalize self-center bg-zinc-950 py-2 px-4 rounded-lg text-white cursor-pointer"
+        className="capitalize self-center bg-black md:bg-white md:text-black py-2 px-4 rounded-lg text-white cursor-pointer"
         variants={{
           open: {
             opacity: 1,

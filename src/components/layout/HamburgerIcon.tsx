@@ -9,7 +9,7 @@ export default function HamburgerIcon({ toggle }: { toggle?: boolean }) {
         <motion.span
           key={index}
           animate={index === 0 ? span_1 : span_2}
-          className=" bg-white h-0.5 w-6 rounded-full"
+          className=" bg-black h-0.5 w-6 rounded-full"
         />
       ))}
     </>
