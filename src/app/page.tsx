@@ -7,13 +7,13 @@ import ProductShowcase from "@/components/ui/ProductShowcase";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <LogoTicker />
       <Features />
       <ProductShowcase />
       <FAQs />
       <CTA />
-    </>
+    </main>
   );
 }
