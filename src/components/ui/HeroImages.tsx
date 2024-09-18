@@ -11,13 +11,6 @@ export default function HeroImages() {
       <motion.figure
         drag
         dragSnapToOrigin
-        animate={{ translateY:50 }}
-        transition={{
-          repeat: Infinity,
-          repeatType: "loop",
-          duration: 3,
-          ease: 'easeInOut',
-        }}
         className="absolute right-[476px] top-[108px] hidden sm:inline"
       >
         <Image
@@ -32,13 +25,6 @@ export default function HeroImages() {
       <motion.figure
         drag
         dragSnapToOrigin
-        animate={{ translateY:50 }}
-        transition={{
-          repeat: Infinity,
-          repeatType: "loop",
-          duration: 2,
-          ease: 'easeInOut',
-        }}
         className="absolute top-[56px] left-[498px] hidden sm:inline"
       >
         <Image
