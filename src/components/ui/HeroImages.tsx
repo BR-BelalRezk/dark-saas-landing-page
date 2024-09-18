@@ -12,7 +12,7 @@ export default function HeroImages() {
         drag
         dragSnapToOrigin
         initial={{ translateY: 50 }}
-        animate={{ translateY: 0 }}
+        animate={{ translateY: [0, 50] }}
         transition={{
           repeat: Infinity,
           repeatType: "loop",
@@ -34,7 +34,7 @@ export default function HeroImages() {
         drag
         dragSnapToOrigin
         initial={{ translateY: 50 }}
-        animate={{ translateY: 0 }}
+        animate={{ translateY: [0, 50] }}
         transition={{
           repeat: Infinity,
           repeatType: "loop",
