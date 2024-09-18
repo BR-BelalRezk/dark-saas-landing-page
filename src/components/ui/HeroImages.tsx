@@ -16,7 +16,7 @@ export default function HeroImages() {
           repeat: Infinity,
           repeatType: "loop",
           duration: 3,
-          ease: "linear",
+          ease: 'easeInOut',
         }}
         className="absolute right-[476px] top-[108px] hidden sm:inline"
       >
@@ -37,7 +37,7 @@ export default function HeroImages() {
           repeat: Infinity,
           repeatType: "loop",
           duration: 2,
-          ease: "linear",
+          ease: 'easeInOut',
         }}
         className="absolute top-[56px] left-[498px] hidden sm:inline"
       >
